@@ -1,0 +1,14 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'KeyCommandsIOSExample' do
+  use_frameworks!
+  
+  pod 'KeyCommands', :path => './../KeyCommands.podspec.json'
+end
+
+target 'KeyCommandsTvOSExample' do
+  use_frameworks!
+  
+  pod 'KeyCommands', :path => './../KeyCommands.podspec.json'
+end
