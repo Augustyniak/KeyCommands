@@ -173,12 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0641FAAB1D79E6B7005563E9 /* Build configuration list for PBXNativeTarget "KeyCommandsIOSExample" */;
 			buildPhases = (
-				ACF88F0A57D6F76F924CF1F0 /* 📦 Check Pods Manifest.lock */,
+				ACF88F0A57D6F76F924CF1F0 /* [CP] Check Pods Manifest.lock */,
 				0641FA951D79E6B7005563E9 /* Sources */,
 				0641FA961D79E6B7005563E9 /* Frameworks */,
 				0641FA971D79E6B7005563E9 /* Resources */,
-				5E51F1DF9B6A5FE00886C494 /* 📦 Embed Pods Frameworks */,
-				AFD4D901DEC04D75F11E8AE1 /* 📦 Copy Pods Resources */,
+				5E51F1DF9B6A5FE00886C494 /* [CP] Embed Pods Frameworks */,
+				AFD4D901DEC04D75F11E8AE1 /* [CP] Copy Pods Resources */,
 				0641FAF91D79EA24005563E9 /* Embed Watch Content */,
 			);
 			buildRules = (
@@ -194,12 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0641FB0A1D79EBF0005563E9 /* Build configuration list for PBXNativeTarget "KeyCommandsTvOSExample" */;
 			buildPhases = (
-				EA909E918F62D9BB6A2E1055 /* 📦 Check Pods Manifest.lock */,
+				EA909E918F62D9BB6A2E1055 /* [CP] Check Pods Manifest.lock */,
 				0641FAFA1D79EBF0005563E9 /* Sources */,
 				0641FAFB1D79EBF0005563E9 /* Frameworks */,
 				0641FAFC1D79EBF0005563E9 /* Resources */,
-				E9661B1BC23B061F698F7FE5 /* 📦 Embed Pods Frameworks */,
-				EEE28F29445E504200DDA6F1 /* 📦 Copy Pods Resources */,
+				E9661B1BC23B061F698F7FE5 /* [CP] Embed Pods Frameworks */,
+				EEE28F29445E504200DDA6F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,9 +222,11 @@
 				TargetAttributes = {
 					0641FA981D79E6B7005563E9 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					0641FAFD1D79EBF0005563E9 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -270,14 +272,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5E51F1DF9B6A5FE00886C494 /* 📦 Embed Pods Frameworks */ = {
+		5E51F1DF9B6A5FE00886C494 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,14 +287,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeyCommandsIOSExample/Pods-KeyCommandsIOSExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ACF88F0A57D6F76F924CF1F0 /* 📦 Check Pods Manifest.lock */ = {
+		ACF88F0A57D6F76F924CF1F0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +302,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		AFD4D901DEC04D75F11E8AE1 /* 📦 Copy Pods Resources */ = {
+		AFD4D901DEC04D75F11E8AE1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,14 +317,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeyCommandsIOSExample/Pods-KeyCommandsIOSExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E9661B1BC23B061F698F7FE5 /* 📦 Embed Pods Frameworks */ = {
+		E9661B1BC23B061F698F7FE5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,14 +332,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeyCommandsTvOSExample/Pods-KeyCommandsTvOSExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EA909E918F62D9BB6A2E1055 /* 📦 Check Pods Manifest.lock */ = {
+		EA909E918F62D9BB6A2E1055 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,14 +347,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		EEE28F29445E504200DDA6F1 /* 📦 Copy Pods Resources */ = {
+		EEE28F29445E504200DDA6F1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +509,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.augustyniak.KeyCommandsExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -519,6 +522,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.augustyniak.KeyCommandsExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -533,6 +537,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.augustyniak.KeyCommandsTvOSExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -549,6 +554,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.augustyniak.KeyCommandsTvOSExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};

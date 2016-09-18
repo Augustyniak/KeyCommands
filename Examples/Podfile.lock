@@ -6,11 +6,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   KeyCommands:
-    :path: "./../KeyCommands.podspec.json"
+    :path: ./../KeyCommands.podspec.json
 
 SPEC CHECKSUMS:
-  KeyCommands: 284616fee74038a6994f4329080337066da502e0
+  KeyCommands: 3c47ae65995abe7bb5f3b81cc27bbe211a90e3ad
 
 PODFILE CHECKSUM: 942c4850e6d5bc7e89f339be8259081e04f19e77
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.0.1
