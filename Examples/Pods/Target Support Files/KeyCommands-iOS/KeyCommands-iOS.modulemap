@@ -1,0 +1,6 @@
+framework module KeyCommands {
+  umbrella header "KeyCommands-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,5 @@
+
+module KeyCommandsPrivate {
+    header "../KeyCommands/KYCSelectorAdditions.h"
+    export *
+}

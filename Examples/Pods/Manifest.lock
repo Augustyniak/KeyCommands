@@ -1,0 +1,16 @@
+PODS:
+  - KeyCommands (1.0.0)
+
+DEPENDENCIES:
+  - KeyCommands (from `./../KeyCommands.podspec.json`)
+
+EXTERNAL SOURCES:
+  KeyCommands:
+    :path: ./../KeyCommands.podspec.json
+
+SPEC CHECKSUMS:
+  KeyCommands: 3c47ae65995abe7bb5f3b81cc27bbe211a90e3ad
+
+PODFILE CHECKSUM: 47ce74fb6dd28a57d0afe107c18e8e20410c960b
+
+COCOAPODS: 1.0.1
