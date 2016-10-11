@@ -111,4 +111,4 @@ KeyCommands.unregisterKeyCommand("r", modifierFlags: .Command)
 
 # Credits
 
-KeyCommands are highly inspired by RCTKeyCommands class from [React Native](https://github.com/facebook/react-native) project
+KeyCommands are highly inspired by RCTKeyCommands class from [React Native](https://github.com/facebook/react-native) project.
